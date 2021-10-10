@@ -1,0 +1,10 @@
+[package]
+name = "stubgen"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+stubgen-macros-backend = { path = "src/stubgen-macros-backend" }
+
+[features]
+stubgen = []
